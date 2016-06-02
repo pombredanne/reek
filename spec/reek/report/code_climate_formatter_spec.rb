@@ -34,8 +34,7 @@ RSpec.describe Reek::Report::CodeClimateFormatter, '#render' do
 
   it 'sets a content based on the smell detector' do
     expect(rendered).to match(
-      /\"body\":\"A _Utility Function_ is any instance method that has no dependency on the state of the instance.\\n\"/
-    )
+      /\"body\":\"A _Utility Function_ is any instance method that has no dependency on the state of the instance.\\n\"/)
   end
 
   it 'sets remediation points based on the smell detector' do

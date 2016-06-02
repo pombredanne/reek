@@ -9,7 +9,7 @@ group :development do
   gem 'factory_girl',  '~> 4.0'
   gem 'rake',          '~> 11.1'
   gem 'rspec',         '~> 3.0'
-  gem 'rubocop',       '~> 0.39.0'
+  gem 'rubocop',       '~> 0.40.0'
   gem 'yard',          '~> 0.8.7'
   gem 'simplecov',     '~> 0.11.1'
   gem 'mutant-rspec',  '~> 0.8.8'
